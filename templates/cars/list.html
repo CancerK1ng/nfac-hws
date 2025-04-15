@@ -1,0 +1,8 @@
+<h1>Список машин</h1>
+<a href="/cars/new">Добавить новую машину</a>
+<ul>
+    {% for car in cars %}
+        <li>{{ car.name }} ({{ car.year }})</li>
+    {% endfor %}
+</ul>
+git
